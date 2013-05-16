@@ -18,7 +18,7 @@ bool isPrime(int num)
 
 int main()
 {
-	int count = 0, numCheck = 2, primeNum;
+    int count = 0, numCheck = 2, primeNum;
 
     while (count < 10001) {
         if (isPrime(numCheck)) {
@@ -27,6 +27,6 @@ int main()
         }
         numCheck++;
     }
-	std::cout << primeNum << std::endl;
-	return 0;
+    std::cout << primeNum << std::endl;
+    return 0;
 }

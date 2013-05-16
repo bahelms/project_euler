@@ -8,11 +8,11 @@ Status: solved
 */
 var ans;
 for (var a = 1; a < 997; a++) {
-	var b = a+1, c = 1000-(a+b);
-	while (b < c) {
-		if (a*a + b*b == c*c) ans = a*b*c;
-		b++;
-		c--;
-	}
+    var b = a+1, c = 1000-(a+b);
+    while (b < c) {
+        if (a*a + b*b == c*c) ans = a*b*c;
+        b++;
+        c--;
+    }
 }
 console.log(ans);
